@@ -1,0 +1,1 @@
+jogada1 + jogada2
