@@ -1,0 +1,15 @@
+const tipoDePagamento = "pix";
+const valorDoProduto = 130;
+
+if (tipoDePagamento == "credito") {
+    const valorFinal = valorDoProduto - (valorDoProduto * 0.05)
+    console.log(`Valor a ser pago: R$ ${valorFinal}`)
+} else if (tipoDePagamento == "cheque") {
+    const valorFinal = valorDoProduto - (valorDoProduto * 0.03)
+    console.log(`Valor a ser pago: R$ ${valorFinal}`)
+} else if (tipoDePagamento == "debito" || tipoDePagamento == "dinheiro") {
+    const valorFinal = valorDoProduto - (valorDoProduto * 0.1)
+    console.log(`Valor a ser pago: R$ ${valorFinal}`)
+} else {
+    console.log("Tipo de pagamento inválido OU Produto esgotado")
+}

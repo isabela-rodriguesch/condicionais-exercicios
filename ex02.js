@@ -1,5 +1,5 @@
 const jogada1 = 5;
-const jogada2 = 3;
+const jogada2 = 4;
 
 const soma = (jogada1 + jogada2) / 2;
 
